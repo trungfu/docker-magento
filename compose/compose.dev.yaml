@@ -22,8 +22,6 @@ services:
 
   phpfpm:
     volumes: *appvolumes
-    extra_hosts:
-      - "host.docker.internal:172.17.0.1"
     environment:
       PHP_IDE_CONFIG: "serverName=magento.test"
 
