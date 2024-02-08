@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker build -t trungfu/magento-php:8.2-fpm-0 ./images/php/8.2
